@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #d5d7d7;
+}
+.margem{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+header{
+	border-radius: 5px;
+}
+main{
+	width: auto;
+	height: auto;
+}
+.uem{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+	width: 100%;
+	background-color: #424242;
+	border-radius: 5px;
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu-li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 50px;
+	color: #fff;
+}
+.menu-li:hover{
+	border: 2px solid #fff;
+	background-color: #616161;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.flex{
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#imagem{
+	margin-left: 20px;
+	width: auto;
+	height: 200px;
+}
+#imagem2{
+	width: auto;
+	height: 200px;
+}
+.margin-imag1{
+	margin-left: 50px;
+}
+.formatacao-texto-cab{
+	font-family: arial, verdana,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.margin-top{
+	margin-top: 20px;
+}
+#formatacao-texto-grupo{
+	margin-left: 5px;
+}
+.apresntacao{
+	margin-top: 10px;
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.texto-p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 17px;
+}
+.xx{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+ul{
+	padding: 10px;
+}
+li{
+	list-style: none;
+	height: auto;
+}
+a{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: underline;
+}
+a.menu-link{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+a.menu-link:hover{
+	background-color: #616161;
+}
+h2{
+	color: #020259;
+}
+#titulo-equipe{
+	padding: 10px;
+	padding-left: 25px;
+	width: auto;
+	margin-top: 10px;
+	border-bottom: 2px solid #000;
+	border-radius: 5px;
+	background-color: #fff;
+}
+#box-equipe{
+	display: flex;
+	justify-content: space-between;
+	border-radius: 5px;
+	background-color: #fff;
+}
+#box-equipe1{
+	width: auto;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+footer{
+	background-color: #424242;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+#rodape{
+	display: block;
+	width: 400px;
+	height: auto;
+	border-top: 1px solid #fff;
+	font-size: 13px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+@media screen and (max-width: 700px){
+	.formatacao-menu{
+		display: none;
+	}
+
+
+}

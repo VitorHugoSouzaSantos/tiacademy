@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="desafio3.js"></script>
+	<title>Document</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divbox{
+		margin-top: 40px;
+		width: 400px;
+		height: auto;
+		border: 2px solid #000;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		padding: 15px;
+	}
+	input{
+		margin-top: 10px;
+		border-radius: 2px;
+		width: auto;
+		height: 30px;
+	}
+	#v1{
+		margin-left: 45px;
+	}
+	#v2{
+		margin-left: 45px;
+	}
+	#vresult{
+		margin-left: 20px;
+
+	}
+	#cresul{
+		border: 0;
+		color: white;
+		border-radius: 4px;
+		background-color: #4CAF50;
+		cursor: pointer;
+	}
+</style>
+<body>
+	<div class="divbox">
+		<label for="">
+			Digite o valor 1
+			<input type="text" id="v1" value="" name="">
+		</label>
+		<label for="">
+			Digite o valor 2
+			<input type="text" id="v2" value="" name="">
+		</label>
+		<label for="">
+			Informe o resultado
+			<input type="text" id="vresult" value="" name="">
+		</label>
+		<input type="button" id="cresul" value="CONFIRMAR RESULTADO">
+	</div>
+
+</body>
+</html>
